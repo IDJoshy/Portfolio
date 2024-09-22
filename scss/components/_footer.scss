@@ -1,0 +1,53 @@
+.footer
+{
+
+    &__container
+    {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__img
+    {
+        width: 300px;
+        height: 300px;
+    }
+
+    &__links
+    {
+        width: 100%;
+        height: fit-content;
+        position: absolute;
+        bottom: 5px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        gap: .75rem;
+    }   
+
+    &__list
+    {
+        list-style: none;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .75rem;
+        flex-direction: row;
+    }
+
+    &__separator
+    {
+        background: $color-pine;
+        border: 0;
+        height: 1px;
+        width: 90%;
+    }
+}
